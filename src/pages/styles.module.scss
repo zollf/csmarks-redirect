@@ -13,13 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100px;
+    border-radius: 150px;
     border: 10px solid $primary;
     font-family: $font;
     font-size: 50px;
     color: rgb(25, 25, 25);
     text-align: center;
-    box-shadow: 0 0 25px 0 $primary;
     text-decoration: none;
     transition: 0.2s all ease;
     margin: 24px;
@@ -30,9 +29,10 @@
     }
 
     @include mobile {
-      max-height: 150px;
-      font-size: 30px;
+      max-height: 50px;
+      font-size: 20px;
       margin: 12px;
+      padding: 24px;
     }
 
     &:hover {

@@ -14,7 +14,10 @@ const App = ({ Component, pageProps }: Props) => {
     <HelmetProvider>
       <Head>
         <title>csmarks</title>
-        <meta name="description" content="University of Western Australia, UWA, csse csmarks page redirect button" />
+        <meta
+          name="description"
+          content="University of Western Australia, csse csmarks page redirect button. Since the homepage doesn't exists, this what we all use instead."
+        />
         <meta
           name="keywords"
           content="csmarks, uwa csmarks, csse csmarks, University of Western Australia, csse, uwa, uws cs"
