@@ -6,24 +6,33 @@
   align-items: center;
 
   a {
-    width: 40%;
-    background: $primary;
-    height: 150px;
+    width: 60%;
+    background: $secondary;
+    max-height: 200px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 36px;
-    border: 10px solid $secondary;
+    border-radius: 100px;
+    border: 10px solid $primary;
     font-family: $font;
-    font-size: 55px;
-    color: white;
+    font-size: 50px;
+    color: rgb(25, 25, 25);
     text-align: center;
-    box-shadow: 0 0 16px 0 #6373813B;
+    box-shadow: 0 0 25px 0 $primary;
     text-decoration: none;
     transition: 0.2s all ease;
+    margin: 24px;
+    padding: 24px;
 
     @include tablet {
       width: 100%;
+    }
+
+    @include mobile {
+      max-height: 150px;
+      font-size: 30px;
+      margin: 12px;
     }
 
     &:hover {
