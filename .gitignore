@@ -1,0 +1,14 @@
+node_modules
+.next
+.DS_Store
+build
+coverage
+.vercel
+.env
+public/*.js
+public/*.js.map
+.next-tf
+.terraform
+terraform.tfstate.backup
+yarn-error.log
+

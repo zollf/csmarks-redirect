@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["next/babel", {
+      "class-properties": {
+        "loose": true
+      },
+      "preset-env": {
+        "useBuiltIns": "usage",
+        "corejs": "3"
+      }
+    }]
+  ],
+  "plugins": [
+      ["@babel/plugin-proposal-decorators", { "legacy": true }]
+  ]
+}

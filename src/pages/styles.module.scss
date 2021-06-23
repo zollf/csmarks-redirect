@@ -1,0 +1,33 @@
+.index {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    width: 40%;
+    background: $primary;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+    border: 10px solid $secondary;
+    font-family: $font;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 16px 0 #6373813B;
+    text-decoration: none;
+    transition: 0.2s all ease;
+
+    @include tablet {
+      width: 100%;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
