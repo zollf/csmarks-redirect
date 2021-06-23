@@ -20,7 +20,7 @@ const App = ({ Component, pageProps }: Props) => {
         />
         <meta
           name="keywords"
-          content="csmarks, uwa csmarks, csse csmarks, University of Western Australia, csse, uwa, uws cs"
+          content="csmarks, uwa csmarks, csse csmarks, University of Western Australia, csse, uwa, uws cs, computer science, cits, csse marks"
         />
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
