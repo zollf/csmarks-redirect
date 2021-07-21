@@ -39,7 +39,9 @@
     "react-dom": "^16.13.1",
     "react-fade-in": "^1.1.0",
     "react-helmet-async": "^1.0.9",
+    "react-schemaorg": "^2.0.0",
     "react-use": "^15.3.4",
+    "schema-dts": "^0.9.0",
     "typescript": "^4.0.2"
   },
   "devDependencies": {
