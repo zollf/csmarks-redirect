@@ -1,0 +1,88 @@
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 12px;
+  left: 24px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+header > nav > a {
+  color: white;
+  text-decoration: none;
+}
+
+footer > a {
+  position: fixed;
+  bottom: 12px;
+  left: 24px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.csmarks-button {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.csmarks-button > button {
+  width: 60%;
+  background: #5ab9f8;
+  max-height: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  border: 10px solid #209CEE;
+  font-size: 50px;
+  color: rgb(25, 25, 25);
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s all ease;
+  margin: 24px;
+  padding: 24px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 1024px) {
+  .csmarks-button > a {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .csmarks-button > a {
+    max-height: 50px;
+    font-size: 20px;
+    margin: 12px;
+    padding: 24px;
+  }
+}
