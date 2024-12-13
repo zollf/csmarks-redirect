@@ -73,13 +73,13 @@ select:focus {
 }
 
 @media (max-width: 1024px) {
-  .csmarks-button > a {
+  .csmarks-button > button {
     width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-  .csmarks-button > a {
+  .csmarks-button > button {
     max-height: 50px;
     font-size: 20px;
     margin: 12px;
